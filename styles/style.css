@@ -5,8 +5,7 @@
 }
 
 .container {
-  width: 360px;
-  height: 360px;
+  width: 80vw;
   border: 5px solid black;
   margin: 100px auto 0;
 }
@@ -25,6 +24,11 @@
   margin: 50px;
 }
 
+div.one,
+div.two {
+  display: inline-block;
+}
+
 .display {
-  display: flex;
+  display: block;
 }
