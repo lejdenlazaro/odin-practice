@@ -1,0 +1,24 @@
+colors
+
+border, background-color
+
+blue, powderblue
+brown, lightcoral
+salmon, peachpuff
+forestgreen, palegreen
+mediumpurple, lavender
+red, pink
+
+steelblue, lightsteelblue
+sienna, mistyrose
+coral, bisque
+darkgreen, honeydew
+rebeccapurple, thistle
+crimson, lightpink
+
+navy, lightblue
+maroon, rosybrown
+orangered, moccasin
+seagreen, mintcream
+darkorchid, lavenderblush
+firebrick, lightcoral
