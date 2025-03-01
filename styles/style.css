@@ -4,18 +4,13 @@
   box-sizing: border-box;
 }
 
-.flex-container {
-  padding: 50px;
-  border: 5px solid darkblue;
-  background-color: lightblue;
-  margin: 100px;
-  display: flex;
+.menu-container {
+  color: #fff;
+  background-color: #5995da; /*blue*/
+  padding: 20px 0;
 }
 
-.flex-container div {
-  height: 100px;
-  margin: 5px;
-  border: 5px solid brown;
-  background-color: peachpuff;
-  flex: 1;
+.menu {
+  border: 1px solid #fff; /*debug*/
+  width: 900px;
 }
