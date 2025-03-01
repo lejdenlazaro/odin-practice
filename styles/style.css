@@ -9,15 +9,29 @@
   border: 5px solid forestgreen;
   background-color: palegreen;
   padding: 20px;
-  display: flex;
 }
 
 .menu {
   height: 50px;
   border: 5px solid brown;
   background-color: lightcoral;
-  flex: 1;
+  padding: 10px;
 }
 
-.one {
+.date {
+  height: 20px;
+  border: 5px solid steelblue;
+  background-color: lightsteelblue;
+}
+
+.signup {
+  height: 20px;
+  border: 5px solid salmon;
+  background-color: peachpuff;
+}
+
+.login {
+  height: 20px;
+  border: 5px solid mediumpurple;
+  background-color: lavender;
 }
