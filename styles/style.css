@@ -7,9 +7,7 @@
 .menu-container {
   border: 5px solid forestgreen;
   padding: 20px;
-
   background-color: palegreen;
-
   display: flex;
   justify-content: center;
 }
@@ -18,9 +16,7 @@
   width: 500px;
   border: 5px solid blue;
   padding: 5px;
-
   background-color: powderblue;
-
   display: flex;
   justify-content: space-between;
 }
@@ -31,14 +27,12 @@
   margin: 5px;
   border: 5px solid brown;
   padding: 3px;
-
   background-color: lightcoral;
 }
 
 .signup,
 .login {
   border: 5px solid mediumpurple;
-
   background-color: lavender;
 }
 
