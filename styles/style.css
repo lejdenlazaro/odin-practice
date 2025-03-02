@@ -22,16 +22,17 @@
 }
 
 .date,
-.signup,
-.login {
+.signup a,
+.login a {
   margin: 5px;
   border: 5px solid brown;
   padding: 3px;
   background-color: lightcoral;
+  display: block;
 }
 
-.signup,
-.login {
+.signup a,
+.login a {
   border: 5px solid mediumpurple;
   background-color: lavender;
 }
