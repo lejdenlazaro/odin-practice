@@ -15,7 +15,7 @@
 }
 
 .menu {
-  width: 90vw;
+  width: 500px;
   border: 5px solid blue;
   padding: 5px;
 
@@ -26,7 +26,6 @@
 }
 
 .date,
-.links,
 .signup,
 .login {
   margin: 5px;
@@ -44,10 +43,8 @@
 }
 
 .links {
-  border: 5px solid red;
-  background-color: lightpink;
-
   display: flex;
+  justify-content: flex-end;
 }
 
 .menu-container .menu div a {
