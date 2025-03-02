@@ -5,6 +5,8 @@
 }
 
 .menu-container {
+  max-width: 100vw;
+  width: 100%;
   border: 5px solid forestgreen;
   padding: 20px;
   background-color: palegreen;
@@ -24,6 +26,12 @@
   flex-wrap: wrap;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .date,
 .signup a,
 .login a {
@@ -38,12 +46,6 @@
 .login a {
   border: 5px solid mediumpurple;
   background-color: lavender;
-}
-
-.links {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .menu-container .menu div a {
