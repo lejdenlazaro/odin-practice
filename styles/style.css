@@ -10,15 +10,18 @@
   background-color: palegreen;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   border: 5px solid blue;
   padding: 5px;
   background-color: powderblue;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .date,
@@ -39,7 +42,8 @@
 
 .links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .menu-container .menu div a {
