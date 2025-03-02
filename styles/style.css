@@ -22,9 +22,11 @@
   background-color: powderblue;
 
   display: flex;
+  justify-content: space-between;
 }
 
 .date,
+.links,
 .signup,
 .login {
   margin: 5px;
@@ -32,8 +34,6 @@
   padding: 3px;
 
   background-color: lightcoral;
-
-  flex: 1;
 }
 
 .signup,
@@ -41,4 +41,11 @@
   border: 5px solid mediumpurple;
 
   background-color: lavender;
+}
+
+.links {
+  border: 5px solid red;
+  background-color: lightpink;
+
+  display: flex;
 }
