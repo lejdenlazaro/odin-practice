@@ -64,3 +64,15 @@
 .menu-container .menu div a:hover {
   background-color: darkgrey;
 }
+
+/* Header */
+.header-container {
+  border: 5px solid coral;
+  background-color: bisque;
+}
+
+.header {
+  margin: 15px;
+  border: 5px solid firebrick;
+  background-color: lightcoral;
+}
