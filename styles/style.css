@@ -27,14 +27,19 @@
 }
 
 .links {
+  width: 100%;
+  max-width: fit-content;
+  border: 5px solid mediumpurple;
+  background-color: lavender;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .date,
 .signup a,
 .login a {
+  max-width: 100%;
   margin: 5px;
   border: 5px solid brown;
   padding: 3px;
@@ -44,6 +49,8 @@
 
 .signup a,
 .login a {
+  width: 100%;
+  max-width: fit-content;
   border: 5px solid mediumpurple;
   background-color: lavender;
 }
