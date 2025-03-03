@@ -69,10 +69,19 @@
 .header-container {
   border: 5px solid coral;
   background-color: bisque;
+  display: flex;
+  justify-content: center;
 }
 
 .header {
+  width: 100%;
+  max-width: 1024px;
+  height: 300px;
   margin: 15px;
   border: 5px solid firebrick;
+  padding: 0 20px;
   background-color: lightcoral;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
