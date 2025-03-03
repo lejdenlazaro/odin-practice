@@ -1,3 +1,5 @@
 1. menu responsiveness for smaller screens. problem: child elements overflow container
 
 2. Experiment with justify-content values.
+
+3. Experiment with align-items values.
