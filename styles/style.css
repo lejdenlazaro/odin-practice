@@ -44,11 +44,11 @@
   border: 5px solid brown;
   padding: 3px;
   background-color: lightcoral;
-  display: block;
 }
 
 .signup a,
 .login a {
+  display: block;
   width: 100%;
   max-width: fit-content;
   border: 5px solid mediumpurple;
