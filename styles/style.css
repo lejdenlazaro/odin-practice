@@ -85,3 +85,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.header div {
+  border: 5px solid steelblue;
+  background-color: lightsteelblue;
+}
