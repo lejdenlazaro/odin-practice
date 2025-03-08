@@ -82,13 +82,15 @@
   padding: 0 20px;
   background-color: lightcoral;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .header div {
   border: 5px solid steelblue;
   background-color: lightsteelblue;
+  margin-right: 20px;
 }
 
 /* Photo Grid */
