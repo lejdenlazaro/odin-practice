@@ -122,6 +122,7 @@
   margin-bottom: 20px;
 }
 
+/* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -134,6 +135,9 @@
   flex: 1;
 }
 
+.footer-one,
 .footer-three {
-  flex: 2;
+  background-color: aquamarine;
+  width: 300px;
+  flex: initial;
 }
