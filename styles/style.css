@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 5px solid forestgreen;
+  background-color: palegreen;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  height: 100px;
+  border: 5px solid mediumpurple;
+  background-color: lavender;
+  flex: 1;
+}
+
+.one {
+  flex-grow: 1;
+}
+
+.two {
+  flex-shrink: 0;
+}
+
+/* .three {
+  flex-basis: auto;
+} */
