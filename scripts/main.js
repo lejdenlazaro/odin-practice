@@ -1,9 +1,11 @@
-"use strict";
+function createParagraph() {
+  const para = document.createElement("p");
+  para.textContent = "You clicked the button!";
+  document.body.appendChild(para);
+}
 
-let a = 17; //number
-let b = "string"; //string
-let c = true; //boolean
-let d = undefined;
-console.log(a + b); //number + string = string
-console.log(b + c); //string + boolean = stringbooleanstringvalue
-console.log(a + c); //string
+const buttons = document.querySelectorAll("button");
+
+for (const button of buttons) {
+  button.addEventListener("click", createParagraph);
+}
