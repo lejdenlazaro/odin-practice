@@ -34,11 +34,11 @@ console.log(`phone.padEnd(): ${phone.padEnd(100, "foo")}`);
 const pingpong = "pingpong";
 console.log(`pingpong.repeat(): ${pingpong.repeat(4)}`);
 
-const string = "The quick brown fox jumps over the lazy dog.";
+const string = "The quick brown fox jumps over the lazy fox.";
 
 function animal() {
   return "cat";
 }
 
-const regex = /Dog/i;
-console.log(string.replace(regex, animal()));
+const regex = /fox/g;
+console.log(string.replaceAll(regex, animal()));
