@@ -30,3 +30,6 @@ console.log(`name.trimEnd(): ${name.trimEnd()}`);
 console.log(`phone: ${phone}`);
 console.log(`phone.padStart(): ${phone.padStart(phone.length + 5 * 3, "+63")}`);
 console.log(`phone.padEnd(): ${phone.padEnd(100, "foo")}`);
+
+const pingpong = "pingpong";
+console.log(`pingpong.repeat(): ${pingpong.repeat(4)}`);
