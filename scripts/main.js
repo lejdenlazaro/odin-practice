@@ -48,5 +48,7 @@ console.log(`charCodeAt(x): ${none.charCodeAt(0)}`);
 const c =
   'C is a general-purpose programming language featuring economy of expression, modern control flow and data structures, and a rich set of operators. C is not a "very high level" language, nor a "big" one, and is not specialized to any particular area of application. But its absence of restrictions and its generality make it more convenient and effective for many tasks than supposedly more powerful languages. Originally designed for and implemented on the UNIX operating system on the DEC PDP-11 by Dennis Ritchie, C has since been used on a variety of other systems.';
 
+console.log(`length of c: ${c.length}`);
 console.log(`slice(0,44): ${c.slice(0, 43)}`);
-console.log(`slice(44): ${c.slice(0)}`);
+console.log(`slice(): ${c.slice()}`);
+console.log(`slice(44): ${c.slice(-44)}`);
