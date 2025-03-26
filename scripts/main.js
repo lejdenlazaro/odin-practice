@@ -63,7 +63,16 @@ console.log(Number(undefined));
 function someFunction() {
   return true;
 }
-console.log(someFunction() ?? "brent" ? "true" : "false");
-console.log(Boolean(0));
 
-alert(1 && null && 2);
+console.log(someFunction() ?? "brent" ? "true" : "false");
+console.log(Boolean(-1));
+
+const visitor = String(prompt("Who's there?"));
+
+if (visitor === "Admin") {
+  const password = prompt("Password");
+  if (password === "TheMaster") alert("Welcome!");
+  else if (password === "" || password === null) alert("Cancelled.");
+  else alert("Wrong password.");
+} else if (visitor === "" || visitor === null) alert("Cancelled");
+else alert("I don't know you.");
