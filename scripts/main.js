@@ -56,3 +56,14 @@ console.log(number.codePointAt(1));
 console.log(typeof String(1));
 
 console.log("z".codePointAt(0));
+
+console.log(true == 2);
+console.log(Number(undefined));
+
+function someFunction() {
+  return true;
+}
+console.log(someFunction() ?? "brent" ? "true" : "false");
+console.log(Boolean(0));
+
+alert(1 && null && 2);
