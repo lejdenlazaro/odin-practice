@@ -45,9 +45,14 @@ console.log(string.replaceAll(regex, animal()));
 
 const pangram = "The quick brown fox jumps over the lazy dog.";
 
-let split = pangram.split(" ", 5);
-console.log(typeof split);
+let splitPangram = pangram.split(" ", 5);
+console.log(typeof splitPangram);
 
-for (const word in split) {
-  console.log(split[word]);
+for (const word in splitPangram) {
+  console.log(splitPangram[word]);
 }
+
+console.log(number.codePointAt(1));
+console.log(typeof String(1));
+
+console.log("z".codePointAt(0));
