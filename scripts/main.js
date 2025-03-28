@@ -67,13 +67,13 @@ function someFunction() {
 console.log(someFunction() ?? "brent" ? "true" : "false");
 console.log(Boolean(-1));
 
-const visitor = String(prompt("Who's there?"));
+// const visitor = String(prompt("Who's there?"));
 
-if (visitor === "Admin") {
-  const password = prompt("Password");
-  if (password === "TheMaster") alert("Welcome!");
-  else if (password === "" || password === null) alert("Cancelled.");
-  else alert("Wrong password.");
-} else if (visitor === "" || visitor === null) alert("Cancelled");
-else alert("I don't know you.");
+// if (visitor === "Admin") {
+//   const password = prompt("Password");
+//   if (password === "TheMaster") alert("Welcome!");
+//   else if (password === "" || password === null) alert("Cancelled.");
+//   else alert("Wrong password.");
+// } else if (visitor === "" || visitor === null) alert("Cancelled");
+// else alert("I don't know you.");
 
