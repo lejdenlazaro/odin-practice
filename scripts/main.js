@@ -76,3 +76,4 @@ if (visitor === "Admin") {
   else alert("Wrong password.");
 } else if (visitor === "" || visitor === null) alert("Cancelled");
 else alert("I don't know you.");
+
