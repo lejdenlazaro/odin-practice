@@ -76,4 +76,3 @@ console.log(Boolean(-1));
 //   else alert("Wrong password.");
 // } else if (visitor === "" || visitor === null) alert("Cancelled");
 // else alert("I don't know you.");
-
