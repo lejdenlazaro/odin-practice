@@ -2,7 +2,7 @@
 
 const number = "0123456789";
 const alphabet = "ABCDEFGHIJKLMnopqrstuvwxyz";
-const name = "        Lejden        Lazaro        ";
+const name = "        myName        mySurname        ";
 const phone = "9162024972";
 
 console.log(`number: ${number}`);
@@ -68,7 +68,6 @@ console.log(someFunction() ?? "brent" ? "true" : "false");
 console.log(Boolean(-1));
 
 // const visitor = String(prompt("Who's there?"));
-
 // if (visitor === "Admin") {
 //   const password = prompt("Password");
 //   if (password === "TheMaster") alert("Welcome!");
@@ -76,3 +75,15 @@ console.log(Boolean(-1));
 //   else alert("Wrong password.");
 // } else if (visitor === "" || visitor === null) alert("Cancelled");
 // else alert("I don't know you.");
+
+const regEx = /abba*a/;
+const myName = "myNameabbamySurname";
+const separated = myName.split(regEx);
+for (const someName in separated) console.log(separated[someName]);
+
+const loremString =
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias atque, harum explicabo repellat dicta, possimus laudantium doloribus consequatur nulla deserunt fuga magnam, cumque est sint enim tempore quidem. Adipisci incidunt magni sapiente ipsam vero impedit veniam quod quo facilis qui excepturi ea, voluptatibus iure? Suscipit vero at voluptatum error iusto veritatis, illum pariatur porro, laborum, enim dignissimos. Obcaecati qui eum nisi quam aliquam veniam numquam, placeat perferendis quis nemo neque quae et cumque? Nobis sequi aut eos id expedita aliquam, est quo harum commodi dolorum itaque! Minus voluptas veniam molestias!";
+
+const pattern = /aa/;
+const matches = loremString.split(pattern);
+for (const match in matches) console.log(matches[match]);
