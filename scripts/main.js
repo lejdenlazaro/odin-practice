@@ -96,4 +96,4 @@ const myDictionary = [
 
 const div = document.querySelector("div");
 div.textContent = "🖕🏻";
-div.style.fontSize = "200px";
+div.style.fontSize = "150px";
