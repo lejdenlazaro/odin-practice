@@ -88,3 +88,12 @@ console.log(Boolean(-1));
 // const asd = /$a/;
 // const matches = loremString.split(h);
 // for (const match in matches) console.log(asd[match]);
+
+const myDictionary = [
+  { fName: "Lejden", lName: "Lazaro", age: 20 },
+  { fName: "Anshiera", lName: "Delna", age: 22 },
+];
+
+const div = document.querySelector("div");
+div.textContent = "🖕🏻";
+div.style.fontSize = "200px";
