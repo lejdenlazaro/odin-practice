@@ -76,14 +76,15 @@ console.log(Boolean(-1));
 // } else if (visitor === "" || visitor === null) alert("Cancelled");
 // else alert("I don't know you.");
 
-const regEx = /abba*a/;
-const myName = "myNameabbamySurname";
-const separated = myName.split(regEx);
-for (const someName in separated) console.log(separated[someName]);
+// const regEx = /abba*a/;
+// const myName = "myNameabbamySurname";
+// const separated = myName.split(regEx);
+// for (const someName in separated) console.log(separated[someName]);
 
-const loremString =
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias atque, harum explicabo repellat dicta, possimus laudantium doloribus consequatur nulla deserunt fuga magnam, cumque est sint enim tempore quidem. Adipisci incidunt magni sapiente ipsam vero impedit veniam quod quo facilis qui excepturi ea, voluptatibus iure? Suscipit vero at voluptatum error iusto veritatis, illum pariatur porro, laborum, enim dignissimos. Obcaecati qui eum nisi quam aliquam veniam numquam, placeat perferendis quis nemo neque quae et cumque? Nobis sequi aut eos id expedita aliquam, est quo harum commodi dolorum itaque! Minus voluptas veniam molestias!";
+// const loremString =
+//   "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias atque, harum explicabo repellat dicta, possimus laudantium doloribus consequatur nulla deserunt fuga magnam, cumque est sint enim tempore quidem. Adipisci incidunt magni sapiente ipsam vero impedit veniam quod quo facilis qui excepturi ea, voluptatibus iure? Suscipit vero at voluptatum error iusto veritatis, illum pariatur porro, laborum, enim dignissimos. Obcaecati qui eum nisi quam aliquam veniam numquam, placeat perferendis quis nemo neque quae et cumque? Nobis sequi aut eos id expedita aliquam, est quo harum commodi dolorum itaque! Minus voluptas veniam molestias!";
 
-const pattern = /aa/;
-const matches = loremString.split(pattern);
-for (const match in matches) console.log(matches[match]);
+// const h = " ";
+// const asd = /$a/;
+// const matches = loremString.split(h);
+// for (const match in matches) console.log(asd[match]);
