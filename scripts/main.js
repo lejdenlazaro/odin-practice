@@ -122,3 +122,5 @@ const animalPlural = animals.map((animal) => {
 });
 
 console.log(animalPlural.join(" | "));
+
+const input = document.querySelector("input");

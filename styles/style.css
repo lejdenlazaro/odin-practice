@@ -17,3 +17,8 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
+input {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
