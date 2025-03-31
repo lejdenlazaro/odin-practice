@@ -105,3 +105,13 @@ function fibonacci(n) {
   if (n == 0 || n == 1) return n;
   else return fibonacci(n - 1) + fibonacci(n - 2);
 }
+
+(function () {
+  console.log("ang init!");
+})();
+
+const result = (param) => {
+  return `This is the parameter ${param} value.`;
+};
+
+console.log(result("blenbong"));
