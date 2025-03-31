@@ -115,3 +115,10 @@ const result = (param) => {
 };
 
 console.log(result("blenbong"));
+
+const animals = ["Dog", "Cat", "Frog", "Fish", "Rabbit"];
+const animalPlural = animals.map((animal) => {
+  return `${animal}s`;
+});
+
+console.log(animalPlural.join(" | "));
