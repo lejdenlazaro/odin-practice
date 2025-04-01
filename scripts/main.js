@@ -135,3 +135,11 @@ const input = document.querySelector("input");
 //   () => alert("You agreed."),
 //   () => alert("You canceled the execution.")
 // );
+
+function f(yes) {
+  if (yes === 5) return console.timeLog("Time Elapsed: ");
+  else {
+    f(yes + 1);
+    console.trace();
+  }
+}
