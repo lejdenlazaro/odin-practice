@@ -143,3 +143,19 @@ function f(yes) {
     console.trace();
   }
 }
+
+// solutions to odin functions
+//1.
+const addSeven = (num) => num + 7;
+
+//2.
+const multiply = (num1, num2) => num1 * num2;
+
+//3.
+function capitalizeFirstLetter(string) {
+  if (string[0] >= "a" && string[0] <= "z") string[0] -= 32;
+  return string;
+}
+
+//4.
+let lastLetter = (string) => string[string.length - 1];
