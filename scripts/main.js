@@ -153,8 +153,8 @@ const multiply = (num1, num2) => num1 * num2;
 
 //3.
 function capitalizeFirstLetter(string) {
-  if (string[0] >= "a" && string[0] <= "z") string[0] -= 32;
-  return string;
+  const firstLetter = string[0].toUpperCase();
+  return `${firstLetter}${string.substring(1)}`;
 }
 
 //4.
