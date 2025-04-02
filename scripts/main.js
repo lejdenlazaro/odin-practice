@@ -168,6 +168,7 @@ const inputValue = document.querySelector("input");
 const button = document.querySelector("button");
 
 function fizzBuzz(num) {
+  if (isNaN(num)) return;
   for (let i = 1; i <= num; i++) {
     if (i % 3 == 0 && i % 5 == 0) console.log("FizzBuzz");
     else if (i % 3 == 0) console.log("Fizz");
