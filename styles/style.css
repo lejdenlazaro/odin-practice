@@ -22,3 +22,8 @@ input {
   font-size: 1rem;
   margin-top: 1rem;
 }
+
+button {
+  margin-top: 1rem;
+  padding: 8px 32px;
+}

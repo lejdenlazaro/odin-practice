@@ -159,3 +159,24 @@ function capitalizeFirstLetter(string) {
 
 //4.
 let lastLetter = (string) => string[string.length - 1];
+
+//continue practice
+const listOfFunctions = [addSeven];
+
+//fizz buzz
+const inputValue = document.querySelector("input");
+const button = document.querySelector("button");
+
+function fizzBuzz(num) {
+  for (let i = 1; i <= num; i++) {
+    if (i % 3 == 0 && i % 5 == 0) console.log("fizzbuzz");
+    else if (i % 3 == 0) console.log("fizz");
+    else if (i % 5 == 0) console.log("buzz");
+    else console.log(i);
+  }
+}
+
+button.addEventListener("click", () => {
+  const input = parseInt(inputValue.value);
+  fizzBuzz(input);
+});
