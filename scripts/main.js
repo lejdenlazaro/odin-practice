@@ -89,3 +89,8 @@ console.log(`thisArray: ${thisArray.toString()}`);
 console.log(`thisArray2: ${thisArray2.toString()}`);
 console.log(`thisArray+thisArray2: ${thisArray.concat(thisArray2).toString()}`);
 console.log(`thisArray2+thisArray: ${thisArray2.concat(thisArray).toString()}`);
+
+const tempArray = thisArray;
+console.log(`tempArray: ${tempArray.toString()}`);
+console.log(`tempArray.copyWithin(): ${tempArray.copyWithin(0, 3).toString()}`);
+console.log(`tempArray.copyWithin(): ${tempArray.toString()}`);
