@@ -47,8 +47,8 @@ for (let i = 0; i < 10; i++) {
   thisArray.push(i);
 }
 
-console.log(`thisArray.length: ${array.length}`);
-for (let i = 0; i < array.length; i++) {
+console.log(`thisArray.length: ${thisArray.length}`);
+for (let i = 0; i < thisArray.length; i++) {
   console.log(thisArray[i]);
 }
 
