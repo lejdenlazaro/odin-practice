@@ -61,3 +61,9 @@ for (let i = 0; i < 5; i++) {
   thisArray.push("pop");
   console.log(`string: ${thisArray.toString()} length: ${thisArray.length}`);
 }
+
+//pop elements
+for (let i = 0; i < 5; i++) {
+  thisArray.pop();
+  console.log(`string: ${thisArray.toString()} length: ${thisArray.length}`);
+}
