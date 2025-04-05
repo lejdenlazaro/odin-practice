@@ -14,6 +14,9 @@ function someFunction() {
   return "return someFunction";
 }
 
-const i = 0;
-veggies[i] = "impostor veggie";
-console.log(veggies[i]);
+const assortedArray = [
+  { firstname: "beng", lastname: "bong" },
+  someFunction,
+  ["array", "array1"],
+  null,
+];
