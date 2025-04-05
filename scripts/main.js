@@ -40,7 +40,7 @@ array.forEach((element) => {
   console.log(count);
 });
 
-let thisArray = [];
+const thisArray = [];
 console.log(`previous thisArray.length: ${thisArray.length}`);
 
 for (let i = 0; i < 10; i++) {
@@ -67,3 +67,25 @@ for (let i = 0; i < 5; i++) {
   thisArray.pop();
   console.log(`string: ${thisArray.toString()} length: ${thisArray.length}`);
 }
+
+//shift
+console.log(`thisArray: ${thisArray.toString()}`);
+for (let i = 0; i < 5; i++) {
+  console.log(
+    `removed: ${thisArray.shift()} thisArray: ${thisArray.toString()}`
+  );
+}
+console.log(`thisArray.shift() 5: ${thisArray.toString()}`);
+
+//unshift
+for (let i = 4; i >= 0; i--) {
+  console.log(
+    `output: ${thisArray.unshift(i)} thisArray: ${thisArray.toString()}`
+  );
+}
+
+const thisArray2 = ["this", "is", "a", "random", "array", null];
+console.log(`thisArray: ${thisArray.toString()}`);
+console.log(`thisArray2: ${thisArray2.toString()}`);
+console.log(`thisArray+thisArray2: ${thisArray.concat(thisArray2).toString()}`);
+console.log(`thisArray2+thisArray: ${thisArray2.concat(thisArray).toString()}`);
