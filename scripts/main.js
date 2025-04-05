@@ -51,3 +51,13 @@ console.log(`thisArray.length: ${array.length}`);
 for (let i = 0; i < array.length; i++) {
   console.log(thisArray[i]);
 }
+
+//array methods
+console.log(thisArray.toString());
+console.log(typeof thisArray.join(""));
+
+//add elements to pop using array.prototype.pop() method
+for (let i = 0; i < 5; i++) {
+  thisArray.push("pop");
+  console.log(`string: ${thisArray.toString()} length: ${thisArray.length}`);
+}
