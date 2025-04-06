@@ -52,23 +52,19 @@ for (let i = 0; i < thisArray.length; i++) {
   console.log(thisArray[i]);
 }
 
-//array methods
 console.log(thisArray.toString());
 console.log(typeof thisArray.join(""));
 
-//add elements to pop using array.prototype.pop() method
 for (let i = 0; i < 5; i++) {
   thisArray.push("pop");
   console.log(`string: ${thisArray.toString()} length: ${thisArray.length}`);
 }
 
-//pop elements
 for (let i = 0; i < 5; i++) {
   thisArray.pop();
   console.log(`string: ${thisArray.toString()} length: ${thisArray.length}`);
 }
 
-//shift
 console.log(`thisArray: ${thisArray.toString()}`);
 for (let i = 0; i < 5; i++) {
   console.log(
@@ -77,7 +73,6 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(`thisArray.shift() 5: ${thisArray.toString()}`);
 
-//unshift
 for (let i = 4; i >= 0; i--) {
   console.log(
     `output: ${thisArray.unshift(i)} thisArray: ${thisArray.toString()}`
@@ -92,5 +87,9 @@ console.log(`thisArray2+thisArray: ${thisArray2.concat(thisArray).toString()}`);
 
 const tempArray = thisArray;
 console.log(`tempArray: ${tempArray.toString()}`);
-console.log(`tempArray.copyWithin(): ${tempArray.copyWithin(0, 3).toString()}`);
+console.log(
+  `tempArray.copyWithin(): ${tempArray.copyWithin(1, 4, 6).toString()}`
+);
 console.log(`tempArray.copyWithin(): ${tempArray.toString()}`);
+
+const tempArray1 = thisArray;
