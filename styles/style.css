@@ -1,4 +1,8 @@
 .box {
   color: white;
-  background-color: green;
+  background-color: red;
+}
+
+span {
+  background-color: pink;
 }

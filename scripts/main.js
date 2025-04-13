@@ -53,4 +53,11 @@ newDivELement.setAttribute(
 
 newDivELement.style.cssText = "";
 newDivELement.style["fontSize"] = "3rem";
-newDivELement.setAttribute("class", "box");
+newDivELement.setAttribute("class", "box bend pop");
+newDivELement.style.backgroundColor = "green";
+
+newDivELement.classList.remove("bend");
+newDivELement.classList.add("new");
+newDivELement.classList.toggle("pop");
+newDivELement.setAttribute("class", "class1 class2 class3 class4");
+newDivELement.innerHTML = "<span> HAH! This is the Real Pink!</span>";
