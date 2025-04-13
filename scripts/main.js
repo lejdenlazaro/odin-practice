@@ -15,9 +15,16 @@ const div = document.createElement("div");
 div.style.border = "3px solid black";
 div.style.backgroundColor = "pink";
 
+const button = document.createElement("button");
+button.textContent = "Enter";
+button.addEventListener("click", function (e) {
+  console.log(e);
+});
+
 body.appendChild(p);
 body.appendChild(h3);
 body.appendChild(div);
+body.appendChild(button);
 
 // inside body div
 const h1 = document.createElement("h1");
