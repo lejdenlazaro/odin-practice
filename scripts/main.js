@@ -59,3 +59,30 @@ for (let i = 0; i < 5; i++) {
   });
   body.appendChild(button);
 }
+
+const p2 = document.createElement("p");
+
+const text = document.createTextNode("This is a `Text` node.");
+p2.appendChild(text);
+
+body.appendChild(p2);
+
+console.log(p2.textContent);
+
+const ul = document.createElement("ul");
+
+for (let i = 0; i < 5; i++) {
+  const li = document.createElement("li");
+
+  const a = document.createElement("a");
+  a.textContent = `Link ${i}`;
+  a.href = "https://example.com";
+  a.target = "_blank";
+  a.rel = "noopener noreferrer";
+
+  li.appendChild(a);
+
+  ul.appendChild(li);
+}
+
+body.appendChild(ul);
