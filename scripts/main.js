@@ -86,3 +86,21 @@ for (let i = 0; i < 5; i++) {
 }
 
 body.appendChild(ul);
+
+const p3 = document.createElement("p");
+body.appendChild(p3);
+
+body.addEventListener("keydown", (e) => {
+  if (e.key.length === 1) {
+    const textNode = document.createTextNode(`${e.key}`);
+    p3.appendChild(textNode);
+    p3.style.fontSize = "2rem";
+    p3.style.backgroundColor = `rgb(${random(255)} ${random(255)} ${random(
+      255
+    )})`;
+  } else if (e.key === "Enter") {
+    p3.textContent = "";
+  } else if (e.key === "Backspace") {
+    p3.removeChild(p3.lastChild);
+  }
+});
