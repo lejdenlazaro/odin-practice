@@ -100,7 +100,7 @@ body.addEventListener("keydown", (e) => {
     )})`;
   } else if (e.key === "Enter") {
     p3.textContent = "";
-  } else if (e.key === "Backspace") {
+  } else if (e.key === "Backspace" && p3.firstChild != null) {
     p3.removeChild(p3.lastChild);
   }
 });
