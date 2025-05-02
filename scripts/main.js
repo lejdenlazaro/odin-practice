@@ -24,6 +24,8 @@ button.addEventListener("click", function (e) {
   console.log("You made me a green button!");
 });
 
+const asd = "barns";
+
 body.appendChild(p);
 body.appendChild(h3);
 body.appendChild(div);
