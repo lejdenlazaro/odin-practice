@@ -1,21 +1,16 @@
-let john = { name: "John", surname: "Smith", id: 1 };
-let pete = { name: "Pete", surname: "Hunt", id: 2 };
-let mary = { name: "Mary", surname: "Key", id: 3 };
-
-let users = [ john, pete, mary ];
-
-let usersMapped = users.map(user=>{
-    return {fullName:`${user.name} ${user.surname}`, id:user.id}
-});
-
-/*
-usersMapped = [
-  { fullName: "John Smith", id: 1 },
-  { fullName: "Pete Hunt", id: 2 },
-  { fullName: "Mary Key", id: 3 }
-]
-*/
-
-for(let user of usersMapped){
-    console.log(`fullName: ${user.fullName}, id: ${user.id}`);
+function sortByAge(arr){
+    arr.sort((a,b)=>a.age-b.age);
 }
+
+let john = { name: "John", age: 25 };
+let pete = { name: "Pete", age: 30 };
+let mary = { name: "Mary", age: 28 };
+
+//descending [pete,mary,john]
+//ascending [john,mary,pete]
+
+let arr = [ pete, john, mary ];
+
+sortByAge(arr);
+
+arr.forEach(element=>console.log(element.name));
