@@ -1,16 +1,17 @@
-function sortByAge(arr){
-    arr.sort((a,b)=>a.age-b.age);
+function getAverageAge(arr){
+    let sum=0;
+    let count=0;
+    for(let person of arr){
+        sum+=person.age;
+        count++;
+    }
+    return sum/count;
 }
 
 let john = { name: "John", age: 25 };
 let pete = { name: "Pete", age: 30 };
-let mary = { name: "Mary", age: 28 };
+let mary = { name: "Mary", age: 29 };
 
-//descending [pete,mary,john]
-//ascending [john,mary,pete]
+let arr = [ john, pete, mary ];
 
-let arr = [ pete, john, mary ];
-
-sortByAge(arr);
-
-arr.forEach(element=>console.log(element.name));
+console.log( getAverageAge(arr) ); // (25 + 30 + 29) / 3 = 28
