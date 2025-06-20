@@ -1,11 +1,5 @@
 function getAverageAge(arr){
-    let sum=0;
-    let count=0;
-    for(let person of arr){
-        sum+=person.age;
-        count++;
-    }
-    return sum/count;
+    return arr.reduce(((accumulator,currentValue)=>accumulator+currentValue.age),0)/arr.length;
 }
 
 let john = { name: "John", age: 25 };
