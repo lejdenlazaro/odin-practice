@@ -1,7 +1,8 @@
 function groupById(users){
-    let usersById={};
-    users.forEach(user => usersById[user.id]=user);
-    return usersById;
+    return users.reduce((usersById,user)=>{
+        usersById[user.id]=user;
+        return usersById;
+    },{});
 }
 
 let users = [
